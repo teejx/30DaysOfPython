@@ -14,7 +14,7 @@ is_light_on = True
 cat_name, dog_name, weather = 'Sunny','Moeby','Raining'
 print()
 
-# Exercise 2
+# Exercises: Level 1
 print(type(first_name))
 print(type(last_name))
 print(type(full_name))
@@ -46,6 +46,7 @@ print(exp)
 floor_division = (num_one // num_two)
 print(floor_division)
 
+# Exercises: Level 2
 radius = input('area: ')
 radius = int(radius)
 area_of_circle = (3.14) * (radius**2)
