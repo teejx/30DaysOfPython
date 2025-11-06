@@ -48,7 +48,5 @@ print(type({'name': 'teejx'}))
 print()
 
 # 2. Find an Euclidian distance between (2, 3) and (10, 8)
-a = (2,3)
-b = (10,8)
-# answer = 9.43
-
+distance = (((10 - 2)**2) + ((8 - 3) **2)) ** 0.5
+print(distance)

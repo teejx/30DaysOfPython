@@ -1,7 +1,5 @@
 # Day 2: 30 Days of python programming
 
-distance = (((10 - 2)**2) + ((8 - 3) **2)) ** 0.5
-print(distance)
 # Exercise 1
 first_name = 'Tehrence'
 last_name = 'Llenarez'
@@ -57,5 +55,3 @@ fistname = input('first name: ')
 lastname = input('last name: ')
 country = input('country: ')
 age = input('age: ')
-
-distance = (((10 - 2)**2) + ((8 - 3) **2)) ** 0.5
