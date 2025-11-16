@@ -49,8 +49,9 @@ print(food_stuff_tp[:middle]+ food_stuff_tp[middle+1:])
 # OUTPUT: 'Apple', 'Orange', 'Grapes', 'Broccoli', 'Lettuce', 'Shampoo', 'Leash', 'Collar'  - sliced out 'Carrot'
 
 # 5. Slice out the first three items and the last three items from food_staff_lt list
-minus_three = (len(food_stuff_tp)) -3
-print(food_stuff_tp[3:minus_three] + food_stuff_tp[minus_three:-3])
+minus_three = (len(food_stuff_lt)) -3
+print(food_stuff_lt[3:minus_three])
+print(food_stuff_lt[3:-3])
 
 # 6. Delete the food_staff_tp tuple completely
 del food_stuff_tp
