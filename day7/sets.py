@@ -33,17 +33,23 @@ print(it_companies)
 # 6.  Join A and B
 C = A.union(B)
 print(C)
-# 7.  Find A intersection B
 
+# 7.  Find A intersection B
+print(A.intersection(B))
 
 # 8.  Is A subset of B
-
+subset = A.issubset(B)
+print(subset)
 
 # 9.  Are A and B disjoint sets
-
+disjoint = A.isdisjoint(B)
+print(disjoint)
 
 # 10.  Join A with B and B with A
-
+AwithB = A.union(B)
+BwithA = B.union(A)
+print(AwithB)
+print(BwithA)
 
 # 11.  What is the symmetric difference between A and B
 
@@ -62,3 +68,4 @@ print(C)
 
 
 # 15.  I am a teacher and I love to inspire and teach people. How many unique words have been used in the sentence? Use the split methods and set to get the unique words.
+
