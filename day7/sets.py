@@ -52,20 +52,30 @@ print(AwithB)
 print(BwithA)
 
 # 11.  What is the symmetric difference between A and B
-
+difference = A - B
+print(difference.union(B - A))
 
 # 12.  Delete the sets completely
-
+del it_companies, A, B
 
 # -------------------
 # Exercises: Level 3
 # -------------------
 
 # 13.  Convert the ages to a set and compare the length of the list and the set, which one is bigger?
-
+age_set = set(age)
+print(len(age))
+print(len(age_set))
 
 # 14.  Explain the difference between the following data types: string, list, tuple and set
-
+# String is a datatype where you can store things such as letters, numbers and special characters
+# List is a collection of ordered and changeable items
+# Tuple is a collection of ordered and unmutable or unmodifiable items
+# Set is a a collection of unordered and changeable items, removes duplicates items
 
 # 15.  I am a teacher and I love to inspire and teach people. How many unique words have been used in the sentence? Use the split methods and set to get the unique words.
-
+sentence = ('I am a teacher and I love to inspire and teach people.')
+splitted = sentence.split()
+fixed = set(splitted)
+print(fixed)
+print(len(fixed))
